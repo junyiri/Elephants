@@ -1,0 +1,17 @@
+body{
+  background-color: #204c39;
+}
+
+#heading{
+  background-color: #000000;
+  color: #eeeeee;
+  font-family: Lobster Two, Arial;
+  font-weight: bold;
+  width: 500px;
+  text-align: center;
+}
+
+#programs a{
+  color: #eeeeee;
+  font-family: Slabo 27px, sans-serif;
+}

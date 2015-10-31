@@ -1,0 +1,23 @@
+body{
+  background-color: #204c39;
+}
+
+#heading{
+  background-color: #000000;
+  color: #eeeeee;
+  font-family: Lobster Two, Arial;
+  font-weight: bold;
+  width: 500px;
+  text-align: center;
+}
+
+#programs{
+  color: #eeeeee;
+  font-family: Slabo 27px, sans-serif;
+}
+
+#updates{
+  background-color: #18392b;
+  color: #eeeeee;
+  width: 800px
+}
