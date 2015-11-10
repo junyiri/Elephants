@@ -29,16 +29,16 @@ function calculateBMI(){
   var r = document.getElementById("result");
   var c = document.getElementById("category");
 
-  if (bmi <= 18.5) {
+  if (bmi < 18.5) {
     r.innerHTML = "Your bmi is " + bmidisplay
     c.innerHTML = "You are underweight plz eat more"
-  } else if (bmi <= 18.5) {
+  } else if (bmi < 25) {
     r.innerHTML = "Your bmi is " + bmidisplay
     c.innerHTML = "Very good plz dont get hit by a car"
-  } else if (bmi <= 30) {
+  } else if (bmi < 30) {
     r.innerHTML = "Your bmi is " + bmidisplay
     c.innerHTML = "You are overweight plz exercise more"
-  } else if (bmi > 30){
+  } else if (bmi >= 30){
     r.innerHTML = "Your bmi is " + bmidisplay
     c.innerHTML = "You are obese plz see a doctor i cant help you"
   }

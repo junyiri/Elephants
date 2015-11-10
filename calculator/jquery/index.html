@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Calculator</title>
+
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="app.js"></script>
+
+  </head>
+
+  <body>
+
+    <h1>Calculator</h1>
+
+    <label>What is the first number?</label>
+    <input id="noone" type="number" placeholder="0"> <br>
+
+    <label>What would you like to do?(+,-,*,/)</label>
+    <input id="operator" placeholder="+"><br>
+
+    <label>What is the second number?</label>
+    <input id="notwo" type="number" placeholder="0"> <br>
+
+    <label>How many decimal places would you like to round it off to?
+    <input id="dp" type="number" placeholder="0"><br><br>
+
+    <button onclick=calc()>Calculate</button> <br> <br>
+
+    <div id="final">
+      Result will show up here
+    </div>
+
+  </body>
+
+</html>
